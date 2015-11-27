@@ -129,5 +129,9 @@ bind '"\e[B":history-search-forward'
 # make tab cycle through commands instead of listing
 bind '"\t":menu-complete'
 
-# added by Anaconda 2.2.0 installer
-export PATH="/home/jonasadler/anaconda/bin:$PATH"
+# added by Anaconda2 2.4.0 installer
+export PATH="/home/jonas/anaconda2/bin:$PATH"
+export PYTHONPATH="/usr/local/lib/python2.7:/usr/local/lib/python2.7/site-packages:/usr/local/lib/python2.7/dist-packages:$PYTHONPATH"
+
+# Add usr/local/lib to loader
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/lib"
