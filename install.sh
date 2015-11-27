@@ -22,3 +22,7 @@ cd ~/.vim/bundle/YouCompleteMe
 ./install.py --clang-completer
 
 curl -o .bashrc https://raw.githubusercontent.com/adler-j/unix_utils/master/.bashrc
+
+#Python installs
+sudo apt-get install libblas-dev liblapack-dev libatlas-base-dev gfortran
+pip install numpy scipy spyder
