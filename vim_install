@@ -1,0 +1,16 @@
+sudo apt-get install vim
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+git clone https://github.com/majutsushi/tagbar.git ~/.vim/bundle/tagbar
+git clone https://github.com/Xuyuanp/nerdtree-git-plugin.git ~/.vim/bundle/nerdtree
+
+sudo apt-get install clang-format-3.5
+git clone https://github.com/rhysd/vim-clang-format ~/.vim/bundle/vim-clang-format
+
+#YCM
+sudo apt-get install build-essential cmake
+
+mkdir ~/.vim/bundle/YouCompleteMe
+cd ~/.vim/bundle/YouCompleteMe
+./install.py --clang-completer
+
+vim +PluginInstall +qall
