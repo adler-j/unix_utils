@@ -59,3 +59,6 @@ nmap <Leader>C :ClangFormatAutoToggle<CR>
 
 " CUDA 
 au BufNewFile,BufRead *.cu,*.cuh set filetype=cpp
+
+" SWIG
+au BufNewFile,BufRead *.i set filetype=cpp
