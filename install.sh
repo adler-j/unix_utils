@@ -25,5 +25,7 @@ cd ~/.vim/bundle/YouCompleteMe
 curl -o .bashrc https://raw.githubusercontent.com/adler-j/unix_utils/master/.bashrc
 
 #Python installs
+sudo apt-get install python-pip python-dev build-essential 
+pip install --upgrade pip 
 sudo apt-get install libblas-dev liblapack-dev libatlas-base-dev gfortran
 pip install numpy scipy spyder
